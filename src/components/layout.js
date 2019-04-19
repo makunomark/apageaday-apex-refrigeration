@@ -25,15 +25,17 @@ const Layout = ({ children }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{
             margin: `0 auto`,
-            padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
+            fontFamily: `Open Sans`
           }}
         >
-          <main>{children}</main>
+          <main>
+            <Header siteTitle={data.site.siteMetadata.title} />
+            {children}
+          </main>
           <footer>
             © {new Date().getFullYear()}, Built with
             {` `}

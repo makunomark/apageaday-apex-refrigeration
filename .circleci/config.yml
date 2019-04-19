@@ -25,6 +25,10 @@ jobs:
             - v1-npm-deps-{{ checksum "package-lock.json" }}
             # Find the most recently generated cache used from any branch
             - v1-npm-deps-
+
+      - run:
+          name: Retrieve credetials.json file
+          command: base64 --decode $CREDENTIAL_FILE_BASE_64 > credential.json
       
       - run:
           name: Install Dependencies
