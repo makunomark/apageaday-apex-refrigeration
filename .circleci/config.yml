@@ -28,7 +28,7 @@ jobs:
 
       - run:
           name: Retrieve credetials.json file
-          command: base64 --decode $CREDENTIAL_FILE_BASE_64 > credential.json
+          command: echo $CREDENTIAL_FILE_BASE_64 | base64 --decode  > credential.json
       
       - run:
           name: Install Dependencies
