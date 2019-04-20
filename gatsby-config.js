@@ -36,7 +36,7 @@ module.exports = {
             type: "LandingPage",
             collection: "landing_page",
             map: doc => ({
-              backgroundImage: doc.background_image
+              backgroundImage: doc.background_image,
             }),
           },
         ],
@@ -52,11 +52,14 @@ module.exports = {
           },
           {
             family: `Open Sans`,
-            variants: [`400`, `700`]
+            variants: [`400`, `700`],
           },
         ],
       },
-    }
+    },
+    {
+      resolve: "gatsby-plugin-antd",
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
