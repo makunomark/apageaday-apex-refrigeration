@@ -19,12 +19,12 @@ const IndexPage = props => (
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
         backgroundSize: "cover",
-        minHeight: 700,
+        minHeight: 600,
       }}
     >
       <div
         style={{
-          minHeight: 700,
+          minHeight: 780,
           display: "flex",
           alignItems: "center",
           justifyContent: "center",
@@ -36,7 +36,7 @@ const IndexPage = props => (
         }}
       >
         <div style={{ maxWidth: 1080, width: "100%", justifyContent: "left" }}>
-          <div style={{ maxWidth: 700 }}>
+          <div style={{ maxWidth: 700, padding: `1rem 1rem` }}>
             <p>YOUR APPLICANCES ARE IN SAFE HANDS</p>
             <h1 style={{ fontWeight: 700, fontSize: 50 }}>
               Relax as we fit and maintain your electrical appliances
@@ -45,6 +45,22 @@ const IndexPage = props => (
               Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
               eiusmod tempor incididunt ut labore et dolore magna.
             </p>
+            <a
+              href="/#"
+              style={{
+                backgroundColor: "rgb(51, 103, 214)",
+                width: "max-content",
+                padding: "0.5em 2em",
+                borderRadius: 50,
+                textTransform: "capitalize",
+                fontWeight: 700,
+                cursor: "pointer",
+                textDecoration: "none",
+                color: "white",
+              }}
+            >
+              Contact Us
+            </a>
           </div>
         </div>
       </div>
