@@ -80,7 +80,10 @@ const IndexPage = props => (
           </p>
 
           <div style={{ display: "flex", flexWrap: "wrap", marginTop: 48 }}>
-            <Card hoverable style={{ width: 300, margin: "1em 1em" }}>
+            <Card
+              hoverable
+              style={{ minWidth: 300, maxWidth: 700, margin: "1em 1em", border: "none", flex: 1 }}
+            >
               <Meta
                 title={<h3 style={{ textAlign: "center" }}>Fitting</h3>}
                 description={
@@ -93,7 +96,10 @@ const IndexPage = props => (
                 }
               />
             </Card>
-            <Card hoverable style={{ width: 300, margin: "1em 1em" }}>
+            <Card
+              hoverable
+              style={{ minWidth: 300, margin: "1em 1em", border: "none", flex: 1 }}
+            >
               <Meta
                 title={<h3 style={{ textAlign: "center" }}>Fitting</h3>}
                 description={
@@ -106,7 +112,10 @@ const IndexPage = props => (
                 }
               />
             </Card>
-            <Card hoverable style={{ width: 300, margin: "1em 1em" }}>
+            <Card
+              hoverable
+              style={{ minWidth: 300, margin: "1em 1em", border: "none", flex: 1 }}
+            >
               <Meta
                 title={<h3 style={{ textAlign: "center" }}>Fitting</h3>}
                 description={
@@ -141,6 +150,78 @@ const IndexPage = props => (
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam quis nostrud exercitation ullamco laboris.
           </p>
+
+          <div style={{ marginTop: "6em" }}>
+            <Card
+              hoverable
+              style={{ padding: 0, border: "none", margin: "1em" }}
+            >
+              <div style={{ display: "flex", flexWrap: "wrap" }}>
+                <img
+                  src={props.data.allLandingPage.edges[0].node.backgroundImage}
+                  style={{ height: 200, flex: 1 }}
+                />
+                <div
+                  style={{ flex: 1, padding: "0em 2em", alignItems: "center" }}
+                >
+                  <h3>Cold Room building and maintainance</h3>
+                  <p>
+                    We build cold rooms from scratch with minimal supervision.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam quis nostrud exercitation
+                    ullamco laboris.
+                  </p>
+                </div>
+              </div>
+            </Card>
+            <Card
+              hoverable
+              style={{ padding: 0, border: "none", margin: "1em" }}
+            >
+              <div style={{ display: "flex", flexWrap: "wrap" }}>
+                <img
+                  src={props.data.allLandingPage.edges[0].node.backgroundImage}
+                  style={{ height: 200, flex: 1 }}
+                />
+                <div
+                  style={{ flex: 1, padding: "0em 2em", alignItems: "center" }}
+                >
+                  <h3>Refrigerator repair and maintainance</h3>
+                  <p>
+                    We build cold rooms from scratch with minimal supervision.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam quis nostrud exercitation
+                    ullamco laboris.
+                  </p>
+                </div>
+              </div>
+            </Card>
+            <Card
+              hoverable
+              style={{ padding: 0, border: "none", margin: "1em" }}
+            >
+              <div style={{ display: "flex", flexWrap: "wrap" }}>
+                <img
+                  src={props.data.allLandingPage.edges[0].node.backgroundImage}
+                  style={{ height: 200, flex: 1 }}
+                />
+                <div
+                  style={{ flex: 1, padding: "0em 2em", alignItems: "center" }}
+                >
+                  <h3>Microwave services</h3>
+                  <p>
+                    We build cold rooms from scratch with minimal supervision.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam quis nostrud exercitation
+                    ullamco laboris.
+                  </p>
+                </div>
+              </div>
+            </Card>
+          </div>
         </div>
       </section>
 
@@ -172,10 +253,7 @@ const IndexPage = props => (
               <Input.TextArea rows={4} />
             </Form.Item>
             <Form.Item style={{ display: "flex", justifyContent: "center" }}>
-              <Button
-                shape="round"
-                type="primary"
-              >
+              <Button shape="round" type="primary">
                 Submit
               </Button>
             </Form.Item>
