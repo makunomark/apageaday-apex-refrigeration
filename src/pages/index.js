@@ -4,16 +4,24 @@ import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const IndexPage = (props) => (
+const IndexPage = props => (
   <Layout>
     <SEO
       title="Apex refrigeration"
       keywords={[`gatsby`, `application`, `react`]}
     />
 
-    <div style={{ backgroundImage: `url(${props.data.allLandingPage.edges[0].node.backgroundImage})`, minHeight: 700 }}>
-
-    </div>
+    <div
+      style={{
+        backgroundImage: `url(${
+          props.data.allLandingPage.edges[0].node.backgroundImage
+        })`,
+        backgroundRepeat: "no-repeat",
+        backgroundPosition: "center",
+        backgroundSize: "cover",
+        minHeight: 700,
+      }}
+    />
   </Layout>
 )
 

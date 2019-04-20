@@ -40,6 +40,10 @@ const Header = ({ siteTitle }) => (
         <Link to="/" style={menuStyle}>
           Our services
         </Link>
+
+        <Link to="/" style={menuStyle}>
+          Contact us
+        </Link>
       </div>
     </div>
   </header>
