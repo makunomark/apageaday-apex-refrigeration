@@ -82,10 +82,10 @@ const IndexPage = props => (
           <div style={{ display: "flex", flexWrap: "wrap", marginTop: 48 }}>
             <Card
               hoverable
-              style={{ minWidth: 300, maxWidth: 700, margin: "1em 1em", border: "none", flex: 1 }}
+              style={{ margin: "1em 1em", border: "none", borderRadius: 16 }}
             >
               <Meta
-                title={<h3 style={{ textAlign: "center" }}>Fitting</h3>}
+                title={<h3 style={{ textAlign: "center" }}>New equipment supply and installation</h3>}
                 description={
                   <p style={{ textAlign: "center" }}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -98,10 +98,10 @@ const IndexPage = props => (
             </Card>
             <Card
               hoverable
-              style={{ minWidth: 300, margin: "1em 1em", border: "none", flex: 1 }}
+              style={{ margin: "1em 1em", border: "none", borderRadius: 16 }}
             >
               <Meta
-                title={<h3 style={{ textAlign: "center" }}>Fitting</h3>}
+                title={<h3 style={{ textAlign: "center" }}>Good quality after sale service</h3>}
                 description={
                   <p style={{ textAlign: "center" }}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
@@ -114,10 +114,27 @@ const IndexPage = props => (
             </Card>
             <Card
               hoverable
-              style={{ minWidth: 300, margin: "1em 1em", border: "none", flex: 1 }}
+              style={{ margin: "1em 1em", border: "none", borderRadius: 16 }}
             >
               <Meta
-                title={<h3 style={{ textAlign: "center" }}>Fitting</h3>}
+                title={<h3 style={{ textAlign: "center" }}>Existing equipment scheduled and breakdown maintenance</h3>}
+                description={
+                  <p style={{ textAlign: "center" }}>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                    do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam quis nostrud exercitation
+                    ullamco laboris.
+                  </p>
+                }
+              />
+            </Card>
+
+            <Card
+              hoverable
+              style={{ margin: "1em 1em", border: "none", borderRadius: 16 }}
+            >
+              <Meta
+                title={<h3 style={{ textAlign: "center" }}>Retail, wholesale and bulk supply of related parts</h3>}
                 description={
                   <p style={{ textAlign: "center" }}>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
