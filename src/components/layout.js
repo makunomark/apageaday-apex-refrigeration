@@ -59,15 +59,15 @@ const Layout = ({ children }) => (
             >
               <div style={{ margin: "2em 3em" }}>
                 <b style={{ color: "white", fontSize: 20, flex: 1 }}>
-                  About us
+                  Our Vision
                 </b>
                 <br />
                 <br />
 
                 <p style={{ maxWidth: 200 }}>
-                  We’re on a mission to build a better future where technology
-                  creates good jobs for everyone. Fusce sed rutrum risus
-                  pulvinar tortor et. Aenean suscipit ege.
+                  Our vision is simple, to be a leading refrigeration and air
+                  conditioning company in the region and render an excellent
+                  Service to all Small, Medium and large Size Enterprises
                 </p>
               </div>
 
@@ -79,24 +79,32 @@ const Layout = ({ children }) => (
                 <br />
 
                 <p style={{ maxWidth: 200 }}>
-                  We’re on a mission to build a better future where technology
-                  creates good jobs for everyone. Fusce sed rutrum risus
-                  pulvinar tortor et. Aenean suscipit ege.
+                  Our Mission is to be the preferred service provider in this
+                  line of work and be able to cater to a much larger customer
+                  base. .To always be professional &amp; ethical in all our
+                  business dealings and to add value to our clients
                 </p>
               </div>
 
               <div style={{ margin: "2em 3em" }}>
                 <b style={{ color: "white", fontSize: 20, flex: 1 }}>
-                  Featured Services
+                  Our Values
                 </b>
                 <br />
                 <br />
 
-                <p style={{ maxWidth: 200 }}>
-                  Refrigerator repair and maintainance
-                </p>
-                <p style={{ maxWidth: 200 }}>Microwave services</p>
-                <p style={{ maxWidth: 200 }}>Refrigerator repair</p>
+                <ul style={{ maxWidth: 200 }}>
+                  <li>Friendly customer care</li>
+                  <li>Deliver professional services</li>
+                  <li>Good quality products and spares</li>
+                  <li>Good quality maintenance and service</li>
+                  <li>Cost effective systems</li>
+                </ul>
+                {/* <p style={{ maxWidth: 200 }}>Friendly customer care</p>
+                <p style={{ maxWidth: 200 }}>Deliver professional services</p>
+                <p style={{ maxWidth: 200 }}>Good quality products and spares</p>
+                <p style={{ maxWidth: 200 }}>Good quality maintenance and service</p>
+                <p style={{ maxWidth: 200 }}>Cost effective systems</p> */}
               </div>
 
               <div style={{ margin: "2em 3em" }}>
