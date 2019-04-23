@@ -33,7 +33,7 @@ const Header = ({ siteTitle }) => (
       </h1>
 
       <div style={{ display: "flex" }}>
-        <Link to="/" style={menuStyle}>
+        <Link to="/about" style={menuStyle}>
           About
         </Link>
 
