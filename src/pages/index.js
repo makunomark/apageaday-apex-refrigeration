@@ -46,12 +46,9 @@ const IndexPage = props => (
             <div style={{ maxWidth: 700, padding: `1rem 1rem` }}>
               <p>YOUR APPLICANCES ARE IN SAFE HANDS</p>
               <h1 style={{ fontWeight: 700, fontSize: 50, color: "white" }}>
-                Relax as we fit and maintain your electrical appliances
+              Refrigeration and Air Conditioning Appliances
               </h1>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
-                eiusmod tempor incididunt ut labore et dolore magna.
-              </p>
+
               <Button shape="round" style={{ marginTop: 32 }} type="primary">
                 Contact Us
               </Button>
