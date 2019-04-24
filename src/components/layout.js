@@ -116,22 +116,21 @@ const Layout = ({ children }) => (
 
                 <b>Nakuru Office</b>
                 <p>
-                  <span>P.O. Box 15300-20100 Nakuru</span>
-                  <br />
                   <span>Prime Plaza</span>
                   <br />
-                  <span>Tel: 0722265467/0722614619</span>
+                  <span>Tel: 0724775713</span>
                 </p>
-
-                <br />
 
                 <b>Nairobi Office</b>
                 <p>
-                  <span>P.O. Box 15300-00100 Nairobi</span>
-                  <br />
                   <span>Maridadi Plaza</span>
                   <br />
-                  <span>Tel: 0722265467/0722614619</span>
+                  <span>Tel: 0722614619</span>
+                </p>
+
+                <b>Email address</b>
+                <p>
+                  <span>keepcoolref@yahoo.com</span>
                 </p>
               </div>
             </div>
